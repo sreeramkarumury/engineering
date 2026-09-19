@@ -1,0 +1,35 @@
+title: Engineering Notes
+description: Learnings in System Design, DSA, AI, and Projects
+url: "https://sreeramkarumury.github.io"
+baseurl: "/engineering"
+
+theme: just-the-docs
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: pretty
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+
+aux_links:
+  "GitHub":
+    - "https://github.com/sreeramkarumury/engineering"
+
+nav_sort: case_insensitive
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - .github/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
