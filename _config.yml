@@ -14,9 +14,6 @@ search_enabled: true
 heading_anchors: true
 color_scheme: light
 
-aux_links:
-  "GitHub":
-    - "https://github.com/sreeramkarumury/engineering"
 
 nav_sort: case_insensitive
 
