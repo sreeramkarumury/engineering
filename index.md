@@ -20,5 +20,3 @@ Published selectively — what shows up here is what I consider worth sharing.
 | [Projects]({{ site.baseurl }}/projects/) | Build logs, design decisions, retrospectives |
 
 ---
-
-*Repo: [sreeramkarumury/engineering](https://github.com/sreeramkarumury/engineering)*
