@@ -3,9 +3,10 @@ description: Learnings in System Design, DSA, AI, and Projects
 url: "https://sreeramkarumury.github.io"
 baseurl: "/engineering"
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 
@@ -17,13 +18,7 @@ color_scheme: light
 
 nav_sort: case_insensitive
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - vendor/
-  - .github/
-
+# Draft notes: set `published: false` in front matter to keep them off the site
 defaults:
   - scope:
       path: ""
